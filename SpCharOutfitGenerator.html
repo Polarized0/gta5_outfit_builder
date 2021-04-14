@@ -1,0 +1,487 @@
+<style>
+body {
+	background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ),
+    url("http://nowgamercom.wpengine.com/wp-content/uploads/2013/05/350555.jpg");
+	
+	background-size: cover;
+    background-attachment: fixed;
+	color: white;
+    text-align: center;
+}
+
+html {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+::placeholder {
+    color: #c8c8c8;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+	color: #c8c8c8;
+}
+
+input {
+height: 22px;
+margin-bottom: 2px;
+background: rgba(0, 0, 0, 0.575);
+color: white;
+border: none;
+padding-left: 2px;
+padding-right: 2px;
+}
+    
+b {
+    font-weight: 600;
+}
+    
+    h3 {
+        margin: 0;
+    }
+
+.hlpg {
+    float: left;
+    width: 50%;
+}
+
+a:link, a:visited, a:hover, a:active {
+color: white;
+}
+
+.wrapper {
+width: 50%;
+line-height: 24px;
+text-align: left;
+margin: 12px 25% 12px 25%;
+overflow: auto;
+}
+
+.btn {
+background: rgba(0, 0, 0, 0.2);
+border: 1px solid white;
+border-radius: 4px;
+width: 160px;
+height: 24px;
+font-size: 16px;
+color: white;
+cursor: pointer;
+}
+    
+    #al {
+        background: #1a1a1a;
+        color: white;
+        border-radius: 4px;
+        text-align: center;
+        padding: 8px;
+        opacity: 0;
+    }
+
+#pldv {
+width: 60%;
+height: 20%;
+background: white;
+}
+</style>
+<html>
+<head>
+<title>SP Character Outfit Generator</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://a.rsg.sc/n/scp999/s">
+</head>
+<body>
+<br>
+<br>
+<h1>SP Character Outfit Generator</h1>
+You can look up the item IDs on <a href="https://wiki.gt-mp.net/index.php/Character_Components" target="_blank">gt-mp.net</a> and on <a href="https://docs.google.com/document/d/1O8pp41q7iR6N84BNxMzXTXMKXAwUmypvtpKX8eyqaLE/edit" target="_blank">Muky Modz' component list</a>.
+<br>
+<br>
+Download the save for the gender that is opposite to your online character, i.e. If online character is male download female Save or if online character is female download male save!
+<br>
+<u>HXD Offset for Male</u>: 14510<br>
+<b>Male Save</b>: <a href="https://www.mediafire.com/file/l110ie4ksui27k7/SGTA50000_MALE153/file" target="_blank">SGTA5000_MALE153</a><br>
+<br>
+<u>HXD Offset for Female</u>: 14510<br>
+<b>Female Save</b>: <a href="https://www.mediafire.com/file/7au2gccdcm5hj7r/SGTA50000_FEMALE153/file" target="_blank">SGTA5000_FEMALE153</a><br>
+<br>
+If you don't want to wear a certain component or prop, leave its input field empty.
+<br>
+<br>
+<h3>Components</h3>
+<div class="wrapper">
+<div class="hlpg">
+Mask&nbsp;<br>
+Mask Texture&nbsp;<br>
+
+Torso&nbsp;<br>
+Torso Texture&nbsp;<br>
+
+Legs&nbsp;<br>
+Legs Texture&nbsp;<br>
+
+Bag&nbsp;<br>
+Bag Texture&nbsp;<br>
+
+Feet&nbsp;<br>
+Feet Texture&nbsp;<br>
+
+Accessoire&nbsp;<br>
+Accessoire Texture&nbsp;<br>
+
+Special 1 (Undershirt)&nbsp;<br>
+Special 1 (Undershirt) Texture&nbsp;<br>
+
+Special 2 (Body Armor)&nbsp;<br>
+Special 2 (Body Armor) Texture&nbsp;<br>
+
+Decal&nbsp;<br>
+Decal Texture&nbsp;<br>
+
+Top&nbsp;<br>
+Top Texture&nbsp;
+</div>
+
+<div class="hlpg">
+<input type="number" id="mask" placeholder="ID"><br>
+<input type="number" id="mask_tex" placeholder="ID"><br>
+
+<input type="number" id="torso" placeholder="ID"><br>
+<input type="number" id="torso_tex" placeholder="ID"><br>
+
+<input type="number" id="legs" placeholder="ID"><br>
+<input type="number" id="legs_tex" placeholder="ID"><br>
+
+<input type="number" id="bag" placeholder="ID"><br>
+<input type="number" id="bag_tex" placeholder="ID"><br>
+
+<input type="number" id="feet" placeholder="ID"><br>
+<input type="number" id="feet_tex" placeholder="ID"><br>
+
+<input type="number" id="accessoire" placeholder="ID"><br>
+<input type="number" id="accessoire_tex" placeholder="ID"><br>
+
+<input type="number" id="special1" placeholder="ID"><br>
+<input type="number" id="special1_tex" placeholder="ID"><br>
+
+<input type="number" id="special2" placeholder="ID"><br>
+<input type="number" id="special2_tex" placeholder="ID"><br>
+
+<input type="number" id="decal" placeholder="ID"><br>
+<input type="number" id="decal_tex" placeholder="ID"><br>
+
+<input type="number" id="top" placeholder="ID"><br>
+<input type="number" id="top_tex" placeholder="ID"><br>
+
+</div>
+<br>
+</div>
+   
+<h3>Props</h3>
+<div class="wrapper">
+    <div class="hlpg">
+Hat&nbsp;<br>
+Hat Texture&nbsp;<br>
+
+Glasses&nbsp;<br>
+Glasses Texture&nbsp;<br>
+
+Ears&nbsp;<br>
+Ears Texture&nbsp;<br>
+
+Watch&nbsp;<br>
+Watch Texture&nbsp;<br>
+    
+Bracelets&nbsp;<br>
+Bracelets Texture&nbsp;
+    </div>
+    
+    <div class="hlpg">
+<input type="number" id="hat" placeholder="ID"><br>
+<input type="number" id="hat_tex" placeholder="ID"><br>
+
+<input type="number" id="glasses" placeholder="ID"><br>
+<input type="number" id="glasses_tex" placeholder="ID"><br>
+    
+<input type="number" id="ears" placeholder="ID"><br>
+<input type="number" id="ears_tex" placeholder="ID"><br>
+
+<input type="number" id="watch" placeholder="ID"><br>
+<input type="number" id="watch_tex" placeholder="ID"><br>
+    
+<input type="number" id="bracelets" placeholder="ID"><br>
+<input type="number" id="bracelets_tex" placeholder="ID"><br>
+    </div>
+</div>
+<span style="width: 216px" id="al">Copied payload to clipboard</span>
+<button class="btn" onclick="generateAndCopy()">Generate Payload</button>&nbsp;
+
+<button style="margin-right: 216px" class="btn" onclick="document.getElementById('file').click()">Load Outfit</button>
+<br>
+<br>
+
+<input style="margin-right: 8px" type="text" id="on" placeholder="Outfit Name"><button class="btn" onclick="download()">Download Outfit</button>
+
+<input id="file" type="file" style="display: none"/>
+<br>
+<br>
+<br>
+</body>
+</html>
+
+<script type="text/javascript">
+
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
+}
+
+const LENGTH = 880,
+      
+	  MASK_TEX_OFF = 8,
+      TORSO_TEX_OFF = 24,
+	  LEGS_TEX_OFF = 40,
+	  BAG_TEX_OFF = 56,
+	  FEET_TEX_OFF = 72,
+	  ACCESSOIRE_TEX_OFF = 88,
+	  SPECIAL1_TEX_OFF = 104,
+	  SPECIAL2_TEX_OFF = 120,
+	  DECAL_TEX_OFF = 136,
+	  TOP_TEX_OFF = 152,
+	  HAT_TEX_OFF = 760,
+	  GLASSES_TEX_OFF = 776,
+      EARS_TEX_OFF = 792,
+      WATCH_TEX_OFF = 856,
+      BRACELETS_TEX_OFF = 872,
+	  
+	  MASK_OFF = 200,
+      TORSO_OFF = 232,
+	  LEGS_OFF = 248,
+	  BAG_OFF = 264,
+	  FEET_OFF = 280,
+	  ACCESSOIRE_OFF = 296,
+	  SPECIAL1_OFF = 312,
+	  SPECIAL2_OFF = 328,
+	  DECAL_OFF = 344,
+	  TOP_OFF = 360,
+	  HAT_OFF = 600,
+	  GLASSES_OFF = 616,
+      EARS_OFF = 632,
+      WATCH_OFF = 696,
+      BRACELETS_OFF = 712;
+    
+    var payload = "0".repeat(LENGTH);
+    var al = document.getElementById("al");
+    timer = timer2 = to = null;
+
+function generateAndCopy(){
+if(timer !== null){
+    clearInterval(timer);
+    timer = null;
+}
+if(timer2 !== null){
+    clearInterval(timer2);
+    timer2 = null;
+}
+if(to !== null){
+    clearInterval(to);
+    to = null;
+}
+fadeIn(al);
+to = setTimeout(function(){
+    fadeOut(al);
+}, 1000);
+generate();
+copyToClipboard(payload);
+}
+    
+function fadeOut(element) {
+    var op = 1;
+    timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            timer = null;
+            element.style.visibility = "hidden";
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.35;
+    }, 50);
+}
+
+function fadeIn(element) {
+    var op = 0.1;
+    element.style.visibility = "visible";
+    timer2 = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer2);
+            timer2 = null;
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.15;
+    }, 4);
+}
+
+function generate(){
+updPl(MASK_OFF, document.getElementById("mask").value);
+updPl(MASK_TEX_OFF, document.getElementById("mask_tex").value);
+
+updPl(TORSO_OFF, document.getElementById("torso").value);
+updPl(TORSO_TEX_OFF, document.getElementById("torso_tex").value);
+
+updPl(LEGS_OFF, document.getElementById("legs").value);
+updPl(LEGS_TEX_OFF, document.getElementById("legs_tex").value);
+    
+updPl(BAG_OFF, document.getElementById("bag").value);
+updPl(BAG_TEX_OFF, document.getElementById("bag_tex").value);
+
+updPl(FEET_OFF, document.getElementById("feet").value);
+updPl(FEET_TEX_OFF, document.getElementById("feet_tex").value);
+
+updPl(ACCESSOIRE_OFF, document.getElementById("accessoire").value);
+updPl(ACCESSOIRE_TEX_OFF, document.getElementById("accessoire_tex").value);
+
+updPl(SPECIAL1_OFF, document.getElementById("special1").value);
+updPl(SPECIAL1_TEX_OFF, document.getElementById("special1_tex").value);
+
+updPl(SPECIAL2_OFF, document.getElementById("special2").value);
+updPl(SPECIAL2_TEX_OFF, document.getElementById("special2_tex").value);
+
+updPl(DECAL_OFF, document.getElementById("decal").value);
+updPl(DECAL_TEX_OFF, document.getElementById("decal_tex").value);
+
+updPl(TOP_OFF, document.getElementById("top").value);
+updPl(TOP_TEX_OFF, document.getElementById("top_tex").value);
+
+updPl(HAT_OFF, document.getElementById("hat").value);
+updPl(HAT_TEX_OFF, document.getElementById("hat_tex").value);
+
+updPl(GLASSES_OFF, document.getElementById("glasses").value);
+updPl(GLASSES_TEX_OFF, document.getElementById("glasses_tex").value);
+    
+updPl(EARS_OFF, document.getElementById("ears").value);
+updPl(EARS_TEX_OFF, document.getElementById("ears_tex").value);
+
+updPl(WATCH_OFF, document.getElementById("watch").value);
+updPl(WATCH_TEX_OFF, document.getElementById("watch_tex").value);
+    
+updPl(BRACELETS_OFF, document.getElementById("bracelets").value);
+updPl(BRACELETS_TEX_OFF, document.getElementById("bracelets_tex").value);
+}
+
+function load(){
+document.getElementById("mask").value = readOff(MASK_OFF);
+document.getElementById("mask_tex").value = readOff(MASK_TEX_OFF);
+
+document.getElementById("torso").value = readOff(TORSO_OFF);
+document.getElementById("torso_tex").value = readOff(TORSO_TEX_OFF);
+
+document.getElementById("legs").value = readOff(LEGS_OFF);
+document.getElementById("legs_tex").value = readOff(LEGS_TEX_OFF);
+
+document.getElementById("bag").value = readOff(BAG_OFF);
+document.getElementById("bag_tex").value = readOff(BAG_TEX_OFF);
+
+document.getElementById("top").value = readOff(TOP_OFF);
+document.getElementById("top_tex").value = readOff(TOP_TEX_OFF);
+
+document.getElementById("feet").value = readOff(FEET_OFF);
+document.getElementById("feet_tex").value = readOff(FEET_TEX_OFF);
+
+document.getElementById("accessoire").value = readOff(ACCESSOIRE_OFF);
+document.getElementById("accessoire_tex").value = readOff(ACCESSOIRE_TEX_OFF);
+
+document.getElementById("special1").value = readOff(SPECIAL1_OFF);
+document.getElementById("special1_tex").value = readOff(SPECIAL1_TEX_OFF);
+
+document.getElementById("special2").value = readOff(SPECIAL2_OFF);
+document.getElementById("special2_tex").value = readOff(SPECIAL2_TEX_OFF);
+
+document.getElementById("decal").value = readOff(DECAL_OFF);
+document.getElementById("decal_tex").value = readOff(DECAL_TEX_OFF);
+
+document.getElementById("hat").value = readOff(HAT_OFF);
+document.getElementById("hat_tex").value = readOff(HAT_TEX_OFF);
+
+document.getElementById("glasses").value = readOff(GLASSES_OFF);
+document.getElementById("glasses_tex").value = readOff(GLASSES_TEX_OFF);
+    
+document.getElementById("ears").value = readOff(EARS_OFF);
+document.getElementById("ears_tex").value = readOff(EARS_TEX_OFF);
+
+document.getElementById("watch").value = readOff(WATCH_OFF);
+document.getElementById("watch_tex").value = readOff(WATCH_TEX_OFF);
+    
+document.getElementById("bracelets").value = readOff(BRACELETS_OFF);
+document.getElementById("bracelets_tex").value = readOff(BRACELETS_TEX_OFF);
+}
+    
+function readOff(offset){
+    var hex = "";
+    for(let i = 0; i < 8; i++){
+        hex += payload[offset + i];
+    }
+    
+    return hex == "FFFFFFFF" ? "" : hexToDec(hex);
+}
+
+function hexToDec(hex){
+return parseInt(hex, 16);
+}
+
+function decToHex(n){
+return Number(n).toString(16).toUpperCase();
+}
+
+function updPl(index, decStr){
+var hex = decStr === "" ? "FFFFFFFF" : decToHex(parseInt(decStr));
+
+hex = "0".repeat(8 - hex.length) + hex;
+payload = payload.replaceAt(index, hex);
+}
+
+function copyToClipboard(text) {
+  var aux = document.createElement("input");
+  aux.setAttribute("value", text);
+  document.body.append(aux);
+  aux.select();
+  document.execCommand("copy");
+  document.body.removeChild(aux);
+}
+
+function download() {
+generate();
+var text = payload;
+var name = document.getElementById("on").value === "" ? "GTA5_Outfit" : document.getElementById("on").value;
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', name + ".dat");
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+(function(){
+    
+    function onChange(event) {
+        var reader = new FileReader();
+        reader.onload = onReaderLoad;
+        reader.readAsText(event.target.files[0]);
+    }
+
+    function onReaderLoad(event){
+        payload = event.target.result;
+        load();
+    }
+	
+    document.getElementById('file').addEventListener('change', onChange);
+
+}());
+
+</script>

@@ -1,6 +1,6 @@
 import os
 
-path = "public/items/torso/female"
+path = "public/items/undershirt/male"
 
 from os.path import isfile, join
 onlyfiles = [f for f in os.listdir(path) if isfile(join(path, f))]
