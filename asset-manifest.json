@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3519037b.chunk.css",
-    "main.js": "/static/js/main.af04f8f7.chunk.js",
-    "main.js.map": "/static/js/main.af04f8f7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a20755e0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a20755e0.js.map",
-    "static/js/2.dd030f0d.chunk.js": "/static/js/2.dd030f0d.chunk.js",
-    "static/js/2.dd030f0d.chunk.js.map": "/static/js/2.dd030f0d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0caf6c4137ac146b884a9b3a778cdd1a.js": "/precache-manifest.0caf6c4137ac146b884a9b3a778cdd1a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3519037b.chunk.css.map": "/static/css/main.3519037b.chunk.css.map",
-    "static/js/2.dd030f0d.chunk.js.LICENSE.txt": "/static/js/2.dd030f0d.chunk.js.LICENSE.txt"
+    "main.css": "/gta5_outfit_builder/static/css/main.3519037b.chunk.css",
+    "main.js": "/gta5_outfit_builder/static/js/main.62d26651.chunk.js",
+    "main.js.map": "/gta5_outfit_builder/static/js/main.62d26651.chunk.js.map",
+    "runtime-main.js": "/gta5_outfit_builder/static/js/runtime-main.a852a6a6.js",
+    "runtime-main.js.map": "/gta5_outfit_builder/static/js/runtime-main.a852a6a6.js.map",
+    "static/js/2.dd030f0d.chunk.js": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js",
+    "static/js/2.dd030f0d.chunk.js.map": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js.map",
+    "index.html": "/gta5_outfit_builder/index.html",
+    "precache-manifest.8e7418e11145ab77d7670ea545edae14.js": "/gta5_outfit_builder/precache-manifest.8e7418e11145ab77d7670ea545edae14.js",
+    "service-worker.js": "/gta5_outfit_builder/service-worker.js",
+    "static/css/main.3519037b.chunk.css.map": "/gta5_outfit_builder/static/css/main.3519037b.chunk.css.map",
+    "static/js/2.dd030f0d.chunk.js.LICENSE.txt": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a20755e0.js",
+    "static/js/runtime-main.a852a6a6.js",
     "static/js/2.dd030f0d.chunk.js",
     "static/css/main.3519037b.chunk.css",
-    "static/js/main.af04f8f7.chunk.js"
+    "static/js/main.62d26651.chunk.js"
   ]
 }
