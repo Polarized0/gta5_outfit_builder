@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gta5_outfit_builder/static/css/main.3519037b.chunk.css",
-    "main.js": "/gta5_outfit_builder/static/js/main.62d26651.chunk.js",
-    "main.js.map": "/gta5_outfit_builder/static/js/main.62d26651.chunk.js.map",
+    "main.js": "/gta5_outfit_builder/static/js/main.e08edb4b.chunk.js",
+    "main.js.map": "/gta5_outfit_builder/static/js/main.e08edb4b.chunk.js.map",
     "runtime-main.js": "/gta5_outfit_builder/static/js/runtime-main.a852a6a6.js",
     "runtime-main.js.map": "/gta5_outfit_builder/static/js/runtime-main.a852a6a6.js.map",
     "static/js/2.dd030f0d.chunk.js": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js",
     "static/js/2.dd030f0d.chunk.js.map": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js.map",
     "index.html": "/gta5_outfit_builder/index.html",
-    "precache-manifest.8e7418e11145ab77d7670ea545edae14.js": "/gta5_outfit_builder/precache-manifest.8e7418e11145ab77d7670ea545edae14.js",
+    "precache-manifest.74073844ad18c6d8c53ebcff991cbba3.js": "/gta5_outfit_builder/precache-manifest.74073844ad18c6d8c53ebcff991cbba3.js",
     "service-worker.js": "/gta5_outfit_builder/service-worker.js",
     "static/css/main.3519037b.chunk.css.map": "/gta5_outfit_builder/static/css/main.3519037b.chunk.css.map",
     "static/js/2.dd030f0d.chunk.js.LICENSE.txt": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a852a6a6.js",
     "static/js/2.dd030f0d.chunk.js",
     "static/css/main.3519037b.chunk.css",
-    "static/js/main.62d26651.chunk.js"
+    "static/js/main.e08edb4b.chunk.js"
   ]
 }

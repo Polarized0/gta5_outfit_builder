@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6405cfee1aed9b5cebee1c51e5895053",
+    "revision": "344ff656950fd972b293cfe321bca922",
     "url": "/gta5_outfit_builder/index.html"
   },
   {
-    "revision": "6673348a634e312dae8c",
+    "revision": "6ec80d23e91ee7328bf1",
     "url": "/gta5_outfit_builder/static/css/main.3519037b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gta5_outfit_builder/static/js/2.dd030f0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6673348a634e312dae8c",
-    "url": "/gta5_outfit_builder/static/js/main.62d26651.chunk.js"
+    "revision": "6ec80d23e91ee7328bf1",
+    "url": "/gta5_outfit_builder/static/js/main.e08edb4b.chunk.js"
   },
   {
     "revision": "14158024ee5628339167",
