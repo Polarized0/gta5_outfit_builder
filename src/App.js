@@ -210,7 +210,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        {!allCached && <div id="loading">Loading... {cachedImages} images cached</div>}
+        {!allCached && <div id="loading">Loading... {cachedImages} of about 3000 images cached</div>}
         {this.state.modalImageSrc && this.renderModal()}
         {this.state.listCategory && this.renderList()}
         {this.renderOutfitLayout("M", allCached)}
