@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gta5_outfit_builder/precache-manifest.8e7418e11145ab77d7670ea545edae14.js"
+  "/gta5_outfit_builder/precache-manifest.74073844ad18c6d8c53ebcff991cbba3.js"
 );
 
 self.addEventListener('message', (event) => {
