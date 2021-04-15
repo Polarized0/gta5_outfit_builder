@@ -103,18 +103,7 @@ class App extends React.Component {
             onClick={ ev => {
               if(ev.target.tagName.toUpperCase() !== "BUTTON") this.onItemClick(doesExist ? url : "not_found.png");
             } }
-            onWheel={ ev => {
-              let ind = -~~(ev.deltaY / 100);
-              let currendInd = data.indices["matches"].indexOf(data.id);
-              let newIndex = currendInd + ind;
-
-              if(newIndex < 0) newIndex = data.indices["matches"].length - 1;
-              if(newIndex === data.indices["matches"].length) newIndex = 0;
-
-              data.id = data.indices["matches"][newIndex];
-
-              this.setState(items);
-            } }>
+            >
 
               <img src={ url } alt={ item }
               onError={ ev => {
@@ -211,8 +200,6 @@ class App extends React.Component {
         let mIndices = data.indices["M"];
         let fIndices = data.indices["F"];
 
-        if(item === "decals") console.log(mIndices, fIndices)
-
         for(let index of mIndices){
           if(fIndices.includes(index)) data.indices["matches"].push(index);
         }
@@ -234,7 +221,10 @@ class App extends React.Component {
             Useful reference for textures:
             <br/>
             <a href="https://docs.google.com/document/d/1O8pp41q7iR6N84BNxMzXTXMKXAwUmypvtpKX8eyqaLE/edit" target="_blank" rel="noopener noreferrer">Next Gen Clothing Components</a>
+            <br/>
+            <a href="https://forge.plebmasters.de/clothes/" target="_blank" rel="noopener noreferrer">forge.plebmasters.de</a>
           </div>
+          <hr></hr>
           <div>All the pictures of the props and components belong to <a href="https://rage.mp" target="_blank" rel="noopener noreferrer">rage.mp</a> and are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</div>
         </div>
       </div>
