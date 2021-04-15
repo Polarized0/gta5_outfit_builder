@@ -230,7 +230,7 @@ class App extends React.Component {
             <br />
           </div>
           <hr></hr>
-          <div>All the pictures of the props and components belong to <a href="https://rage.mp" target="_blank" rel="noopener noreferrer">rage.mp</a> and are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</div>
+          <div>Pictures of the props and components belong to <a href="https://rage.mp" target="_blank" rel="noopener noreferrer">rage.mp</a> and are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. Pictures of adversary body armor are from: <a href="https://x3t-infinity.com/" target="_blank" rel="noopener noreferrer">X3T-Infinity</a>.</div>
         </div>
       </div>
     );
